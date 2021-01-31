@@ -88,10 +88,3 @@ any(is.na(mtcars$mpg))
 df[is.na(df)] <- 0 # Replace all null values with 0
 
 mtcars$mpg[is.na(mtcars$mpg)] <- mean(mtcar$mpg) # Replace null values with the mean
-
-
-
-
-
-
-
