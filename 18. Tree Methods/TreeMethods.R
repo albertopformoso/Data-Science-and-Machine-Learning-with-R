@@ -16,7 +16,7 @@ library(rpart.plot)
 prp(tree)
 
 ## RANDOM FOREST
-install.packages('randomForest')
+# install.packages('randomForest')
 library(randomForest)
 
 model <- randomForest(Kyphosis ~ .,   data=kyphosis)
